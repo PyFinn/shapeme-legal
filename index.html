@@ -1,39 +1,43 @@
 <!doctype html>
 <html lang="de">
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ShapeMe · Rechtliches / Legal</title><link rel="stylesheet" href="/style.css"></head>
+<title>ShapeMe · Rechtliches / Legal</title><link rel="stylesheet" href="./style.css"></head>
 <body class="show-de">
-<header class="top"><a class="brand" href="/">SHAPE<b>ME</b></a>
+<header class="top"><a class="brand" href="./">SHAPE<b>ME</b></a>
 <nav class="langtoggle"><button data-l="de">DE</button><button data-l="en">EN</button></nav></header>
 <main>
 <section class="lang lang-de">
 <h1>Rechtliches</h1>
-<p class="updated">Rechtliche Dokumente für die ShapeMe-App. Stand: 15. Juli 2026.</p>
+<p class="updated">Rechtliche Dokumente für die ShapeMe-App. Stand: 20. September 2026.</p>
 <h2>Dokumente</h2>
 <ul>
-<li><a href="/privacy">Datenschutzerklärung</a></li>
-<li><a href="/terms">Nutzungsbedingungen (AGB)</a></li>
-<li><a href="/impressum">Impressum</a></li>
+<li><a href="./support/">Support &amp; Hilfe</a></li>
+<li><a href="./privacy/">Datenschutzerklärung</a></li>
+<li><a href="./terms/">Nutzungsbedingungen (AGB)</a></li>
+<li><a href="./impressum/">Impressum</a></li>
+<li><a href="./delete-account/">Konto und Daten löschen / Delete account and data</a></li>
 </ul>
-<p class="muted">Anbieter: Finn Klapper · Amrumer Str. 16, Apartment 57 · 13353 Berlin · finn.klapper77@gmail.com</p>
+<p class="muted">Anbieter: TORCHTECHNOLOGY LTD · Nikosia, Zypern · hello@torchtechnology.de</p>
 </section>
 <section class="lang lang-en">
 <h1>Legal</h1>
-<p class="updated">Legal documents for the ShapeMe app. Last updated: 15 July 2026.</p>
+<p class="updated">Legal documents for the ShapeMe app. Last updated: 20 September 2026.</p>
 <h2>Documents</h2>
 <ul>
-<li><a href="/privacy">Privacy Policy</a></li>
-<li><a href="/terms">Terms of Use</a></li>
-<li><a href="/impressum">Legal Notice (Impressum)</a></li>
+<li><a href="./support/">Support &amp; Help</a></li>
+<li><a href="./privacy/">Privacy Policy</a></li>
+<li><a href="./terms/">Terms of Use</a></li>
+<li><a href="./impressum/">Legal Notice (Impressum)</a></li>
+<li><a href="./delete-account/">Konto und Daten löschen / Delete account and data</a></li>
 </ul>
-<p class="muted">Provider: Finn Klapper · Amrumer Str. 16, Apartment 57 · 13353 Berlin, Germany · finn.klapper77@gmail.com</p>
+<p class="muted">Provider: TORCHTECHNOLOGY LTD · Nicosia, Cyprus · hello@torchtechnology.de</p>
 </section>
 </main>
-<footer><a href="/privacy">Datenschutz / Privacy</a><a href="/terms">Nutzungsbedingungen / Terms</a><a href="/impressum">Impressum</a><p class="muted">© 2026 Finn Klapper · ShapeMe</p></footer>
+<footer><a href="./delete-account/">Konto löschen / Delete account</a><a href="./support/">Support</a><a href="./privacy/">Datenschutz / Privacy</a><a href="./terms/">Nutzungsbedingungen / Terms</a><a href="./impressum/">Impressum</a><p class="muted">© 2026 TORCHTECHNOLOGY LTD · ShapeMe</p></footer>
 <script>
 (function(){var b=document.body;function set(l){b.classList.remove('show-de','show-en');b.classList.add('show-'+l);document.documentElement.lang=l;document.querySelectorAll('.langtoggle button').forEach(function(x){x.classList.toggle('active',x.dataset.l===l)});try{localStorage.setItem('sm-lang',l)}catch(e){}}
 var s=null;try{s=localStorage.getItem('sm-lang')}catch(e){}
-var init=s||(((navigator.language||'de').toLowerCase().indexOf('de')===0)?'de':'en');set(init);
+var init=(s==='de'||s==='en'?s:null)||(((navigator.language||'de').toLowerCase().indexOf('de')===0)?'de':'en');set(init);
 document.querySelectorAll('.langtoggle button').forEach(function(x){x.addEventListener('click',function(){set(x.dataset.l)})});})();
 </script>
 </body></html>
